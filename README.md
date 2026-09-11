@@ -163,7 +163,7 @@ Modular development breaks the interface into small, independent, testable piece
 
 **Screenshot — Blade Components Folder:**
 
-![Blade Components Folder](screenshots/blade-components-folder.png)
+![Blade Components Folder](screenshots/blade.png)
 
 ---
 
@@ -220,37 +220,37 @@ project-root/
 ## 8. Screenshots
 
 ### Desktop View
-![Desktop View](screenshots/desktop-view.png)
+![Desktop View](screenshots/desktop.png)
 
 ### Tablet View
-![Tablet View](screenshots/tablet-view.png)
+![Tablet View](screenshots/tablet.png)
 
 ### Mobile View
-![Mobile View](screenshots/mobile-view.png)
+![Mobile View](screenshots/mobile.png)
 
 ### Navigation Bar
 ![Navigation Bar](screenshots/navbar.png)
 
 ### Hero Section
-![Hero Section](screenshots/hero-section.png)
+![Hero Section](screenshots/hero.png)
 
 ### Features Section
-![Features Section](screenshots/features-section.png)
+![Features Section](screenshots/feature.png)
 
 ### Pricing Section
-![Pricing Section](screenshots/pricing-section.png)
+![Pricing Section](screenshots/pricing.png)
 
 ### Testimonials
-![Testimonials Section](screenshots/testimonials-section.png)
+![Testimonials Section](screenshots/testimonials.png)
 
 ### Footer
 ![Footer](screenshots/footer.png)
 
 ### Blade Components Folder
-![Blade Components Folder](screenshots/blade-components-folder.png)
+![Blade Components Folder](screenshots/blade.png)
 
 ### GitHub Repository
-![GitHub Repository](screenshots/github-repository.png)
+![GitHub Repository](screenshots/github.png)
 
 ---
 
