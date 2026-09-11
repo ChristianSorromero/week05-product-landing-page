@@ -1,0 +1,86 @@
+/* ===================== Alley's Laundry — base + responsive refinements ===================== */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 96px; /* keeps anchored sections clear of the fixed navbar */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-heading {
+  font-family: 'Sora', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #2451d6;
+  outline-offset: 2px;
+}
+
+/* ===================== Extra responsive fine-tuning ===================== */
+/* The Tailwind utility classes already cover sm/md/lg breakpoints for layout,
+   grid columns, and visibility. The rules below only smooth out spacing and
+   sizing at the very small (< 380px) and very large (> 1536px) extremes,
+   without altering the original design. */
+
+/* Small phones: tighten hero vertical rhythm and heading size slightly */
+@media (max-width: 380px) {
+  #home h1 {
+    font-size: 2.5rem; /* fallback below Tailwind's text-5xl step */
+  }
+
+  #home {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
+/* Ensure the floating hero cards never overflow the viewport on small
+   tablets where they first become visible (sm: breakpoint) */
+@media (min-width: 640px) and (max-width: 767px) {
+  #home .absolute.-bottom-8 {
+    left: 0.5rem;
+  }
+
+  #home .absolute.-top-6.-right-4 {
+    right: 0.5rem;
+  }
+}
+
+/* Large desktops / wide monitors: cap hero image height so it doesn't
+   stretch awkwardly at very large viewports */
+@media (min-width: 1536px) {
+  #home img[alt*="laundry"] {
+    max-height: 560px;
+  }
+}
+
+/* Testimonial track: snap padding so the last card isn't flush against
+   the viewport edge on mobile */
+@media (max-width: 767px) {
+  #testi-track {
+    scroll-padding-left: 1rem;
+    scroll-padding-right: 1rem;
+  }
+}

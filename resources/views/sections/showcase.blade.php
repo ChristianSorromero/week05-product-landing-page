@@ -16,9 +16,9 @@
         The Alley's Experience
       </span>
       <h2 class="font-heading text-4xl font-extrabold leading-tight text-slate-900 sm:text-5xl md:text-6xl">
-        We take pride in <span class="relative inline-block text-cyan-500">
+        We take pride in <span class="relative inline-block text-blue-900">
           every load
-          <svg class="absolute -bottom-2 left-0 w-full text-cyan-400" viewBox="0 0 200 12" preserveAspectRatio="none" aria-hidden="true">
+          <svg class="absolute -bottom-2 left-0 w-full text-blue-700" viewBox="0 0 200 12" preserveAspectRatio="none" aria-hidden="true">
             <path d="M2 9 C 50 -2, 150 -2, 198 9" stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round"/>
           </svg>
         </span>
@@ -90,7 +90,7 @@
   }
 
   .showcase-card-btn.is-active .showcase-card-inner {
-    background-color: #172554; /* primary-900 */
+    background-color: #1e3a8a; /* blue-900 matching hero */
     box-shadow: none;
   }
 

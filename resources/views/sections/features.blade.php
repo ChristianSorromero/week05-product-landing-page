@@ -1,5 +1,5 @@
 {{-- ===================== FEATURES SECTION ===================== --}}
-<section id="features" class="relative overflow-hidden bg-slate-50 py-20 md:py-28">
+<section id="features" class="relative overflow-hidden bg-blue-900 py-20 md:py-28">
 
   {{-- faint decorative backdrop, purely ambient — respects reduced motion via CSS below --}}
   <div class="pointer-events-none absolute -top-24 right-0 h-96 w-96 rounded-full bg-primary-100/40 blur-3xl"></div>
@@ -7,10 +7,10 @@
   <div class="container relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
     <div class="mx-auto mb-16 max-w-2xl text-center">
-      <h2 id="why-alleys-heading" class="font-heading text-5xl font-extrabold text-slate-900 md:text-6xl">
-        Why <span class="text-cyan-500">Alley's</span>
+      <h2 id="why-alleys-heading" class="font-heading text-5xl font-extrabold text-white md:text-6xl">
+        Why <span class="text-cyan-300">Alley's</span>
       </h2>
-      <p class="mt-5 text-lg text-slate-500">From pickup to fold, every step is handled by people who genuinely care about your clothes.</p>
+      <p class="mt-5 text-lg text-blue-100">From pickup to fold, every step is handled by people who genuinely care about your clothes.</p>
     </div>
 
     <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

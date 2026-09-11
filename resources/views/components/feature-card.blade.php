@@ -14,7 +14,7 @@
 
 <div
   data-feature-card
-  class="feature-card group relative isolate flex flex-col overflow-hidden rounded-2xl border border-slate-100 bg-white p-8 opacity-0 translate-y-6 shadow-md transition-[opacity,transform,box-shadow] duration-500 ease-out will-change-transform hover:shadow-2xl hover:shadow-primary-500/15"
+  class="feature-card group relative isolate flex flex-col overflow-hidden rounded-2xl border border-blue-700/50 bg-blue-800/60 p-8 opacity-0 translate-y-6 shadow-md transition-[opacity,transform,box-shadow] duration-500 ease-out will-change-transform hover:shadow-2xl hover:shadow-cyan-400/20"
 >
   {{-- cursor-tracking spotlight --}}
   <div
@@ -33,10 +33,10 @@
       <i data-lucide="{{ $feature['icon'] }}" class="h-7 w-7"></i>
     </span>
 
-    <h3 class="mb-2 font-heading text-xl font-bold text-slate-900 transition-colors group-hover:text-primary-700">
+    <h3 class="mb-2 font-heading text-xl font-bold text-white transition-colors group-hover:text-cyan-300">
       {{ $feature['title'] }}
     </h3>
-    <p class="leading-relaxed text-slate-500">{{ $feature['description'] }}</p>
+    <p class="leading-relaxed text-blue-100">{{ $feature['description'] }}</p>
 
     {{-- optional staggered avatar reveal, e.g. for a "meet the team" style card --}}
     @isset($feature['avatars'])
